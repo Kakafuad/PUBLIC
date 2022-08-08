@@ -1,11 +1,11 @@
-import os, platform, time
-print('\n\x1b[1;37m[•] Checking Update...');time.sleep(0.5)
-os.system('git pull')
-def Run():
-        bit = platform.architecture()[0]
-        if bit == '64bit':
-            print("\x1b[1;92m[•] Congratulations ! Your Device Support this Tools")
-            print('[•] Follow My Github First')
-            os.system('xdg-open https://github.com/REFAT-156')
-            import public62
-login() 
+import os
+
+os.system ('git pull') 
+
+os.system ('termux-setup-storage') 
+
+print ('\033[1;32m    Welcome To My Tools') 
+
+import public64
+
+Main()
