@@ -8,11 +8,4 @@ def Run():
             print('[•] Follow My Github First')
             os.system('xdg-open https://github.com/REFAT-156')
             import public62
-        elif bit == '32bit':
-            print("\n\x1b[1;92m[•] Congratulations ! Your Device Support this Tools")
-            print('[•] Follow My Github First')
-            os.system('xdg-open https://github.com/REFAT-156')
-            import public32
-        else:
-            exit('\033[1;31m[×] Connection Error')
-Run()
+login() 
